@@ -6,6 +6,7 @@ var jwt      = require('jsonwebtoken'); // used to create, sign, and verify toke
 var Product=require('../models/product');
 var config     = require('../config'); // get our config file
 
+    
 // route middleware to verify a token
 router.use(function(req, res, next) {
 
